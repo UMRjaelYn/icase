@@ -28,11 +28,12 @@ public class UserServiceImpl implements UserService {
 		return false;
 	}
 
+<<<<<<< 31bc641b21e1d834da97c6f0368337cfd9c5f632
 	@Override
 	public List<Users> getUserByType(int type) {
 		return (List<Users>) BaseDao.getObject("from Users where id='"+type+"'");
 	} 
-
+=======
 	public Users getUserById(int id) {
 		return (Users) BaseDao.getObject("from Users where id='" + id + "'");
 	}
@@ -40,5 +41,6 @@ public class UserServiceImpl implements UserService {
 	public List<Users> findWithPage() {
 		return (List<Users>) BaseDao.findWithPage("from Users ");
 	}
+>>>>>>> new commit
 
 }

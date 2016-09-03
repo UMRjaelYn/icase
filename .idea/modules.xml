@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< 31bc641b21e1d834da97c6f0368337cfd9c5f632
       <module fileurl="file://$PROJECT_DIR$/.idea/git-projects.iml" filepath="$PROJECT_DIR$/.idea/git-projects.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/icase.iml" filepath="$PROJECT_DIR$/icase.iml" />
+>>>>>>> new commit
     </modules>
   </component>
 </project>

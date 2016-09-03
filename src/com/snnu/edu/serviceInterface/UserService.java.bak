@@ -6,6 +6,7 @@ import com.snnu.edu.dao.BaseDao;
 import com.snnu.edu.entity.Users;
 
 public interface UserService {
+<<<<<<< 31bc641b21e1d834da97c6f0368337cfd9c5f632
 
 	public boolean saveOrUpdateUsers(Users user);
 
@@ -19,5 +20,13 @@ public interface UserService {
 	
     public boolean findIsExitUser(String name,String password);
     
-
+=======
+	public  boolean saveOrUpdateUsers(Users user);
+	
+	public  boolean delUserInfo(Users user);
+	
+	public  Users getUserById(int id);
+	public  List<Users>findWithPage();
+	
+>>>>>>> new commit
 }
