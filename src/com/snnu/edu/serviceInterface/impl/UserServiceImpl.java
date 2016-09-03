@@ -45,6 +45,11 @@ public class UserServiceImpl implements UserService{
 			e.printStackTrace();
 		}
 		return false;
+	}
+
+	@Override
+	public List<Users> getUserByType(int type) {
+		return (List<Users>) BaseDao.getObject("from Users where id='"+type+"'");
 	} 
 
 }
