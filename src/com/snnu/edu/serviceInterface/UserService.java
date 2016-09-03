@@ -2,6 +2,7 @@ package com.snnu.edu.serviceInterface;
 
 import java.util.List;
 
+import com.snnu.edu.dao.BaseDao;
 import com.snnu.edu.entity.Users;
 
 public interface UserService {
@@ -18,4 +19,5 @@ public interface UserService {
 	
     public boolean findIsExitUser(String name,String password);
     
+
 }
