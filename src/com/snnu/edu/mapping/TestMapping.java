@@ -6,10 +6,7 @@ import org.hibernate.tool.hbm2ddl.SchemaExport;
 
 public class TestMapping {
 
-	public static void main(String[] args) {
-	//Configuration  cfg=new Configuration().configure();
-	//SchemaExport export=new SchemaExport(cfg);
-	//export.create(true, true);		
+	public static void main(String[] args) {		
 		Configuration configuration = new AnnotationConfiguration();
 		configuration.configure();
 		SchemaExport export = new SchemaExport(configuration);

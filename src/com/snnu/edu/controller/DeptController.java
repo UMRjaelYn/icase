@@ -3,7 +3,7 @@ package com.snnu.edu.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.snnu.edu.entity.User;
+import com.snnu.edu.entity.Users;
 
 @Controller
 @RequestMapping("deptController")
@@ -17,7 +17,7 @@ public class DeptController {
 		System.out.println("delete");
 	}
 	@RequestMapping("save")
-	public void save(User user){
+	public void save(Users user){
 		System.out.println(user);
 	}
 }
