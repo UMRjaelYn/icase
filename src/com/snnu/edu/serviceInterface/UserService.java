@@ -11,8 +11,11 @@ public interface UserService {
 	public boolean delUserInfo(Users user);
 
 	public Users getUserById(int id);
+	
+	public List<Users> getUserByType(int type);
 
 	public List<Users> findWithPage();
 	
     public boolean findIsExitUser(String name,String password);
+    
 }
